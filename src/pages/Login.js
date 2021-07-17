@@ -82,7 +82,7 @@ class Login extends Component{
                         <button className="btn btn-primary" onClick={()=> this.iniciarSesion()} >Iniciar Sesión</button>
 
                         <br />
-                        <label>V 1.0.0.1</label>
+                        <label>V 1.0.0.2</label>
                     </div>
                 </div>             
             </div>
