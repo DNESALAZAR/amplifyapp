@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactlogin-dev-234610-authRole",
+      "UnauthRoleArn": "arn:aws:iam::497822435192:role/amplify-reactlogin-dev-234610-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::497822435192:role/amplify-reactlogin-dev-234610-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-reactlogin-dev-234610-deployment",
+      "UnauthRoleName": "amplify-reactlogin-dev-234610-unauthRole",
+      "StackName": "amplify-reactlogin-dev-234610",
+      "StackId": "arn:aws:cloudformation:us-east-1:497822435192:stack/amplify-reactlogin-dev-234610/1565d7a0-e783-11eb-b425-0a77a63e55d9",
+      "AmplifyAppId": "d1xnhv8hnb6j37"
+    }
+  }
+}
