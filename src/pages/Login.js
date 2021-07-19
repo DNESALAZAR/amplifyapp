@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import md5 from 'md5';
 import Cookies from 'universal-cookie';
-import { withAuthenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 const baseUrl="http://localhost:3001/usuario";
 const cookies = new Cookies();
@@ -81,10 +81,14 @@ class Login extends Component{
                         <br />
                         <button className="btn btn-primary" onClick={()=> this.iniciarSesion()} >Iniciar Sesión</button>
                     </div>
+                    <div>
+                        <AmplifySignOut />
+                        My App
+                    </div>
                 </div>             
             </div>
         );
     }
 }
 
-export default withAuthenticator (Login, { includeGreetings: true });
+export default withAuthenticator (Login);
