@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import md5 from 'md5';
 import Cookies from 'universal-cookie';
-import Bootstrap from "./theme";
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
 const baseUrl="http://localhost:3001/usuario";
