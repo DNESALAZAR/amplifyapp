@@ -10,6 +10,11 @@
       "StackName": "amplify-reactlogin-dev-234610",
       "StackId": "arn:aws:cloudformation:us-east-1:497822435192:stack/amplify-reactlogin-dev-234610/1565d7a0-e783-11eb-b425-0a77a63e55d9",
       "AmplifyAppId": "d1xnhv8hnb6j37"
+    },
+    "categories": {
+      "auth": {
+        "reactlogin51e3579d": {}
+      }
     }
   }
 }
