@@ -59,6 +59,9 @@ class Login extends Component{
     render() {
         return(
             <div className="containerPrincipal">
+            <div className="containerTop">
+                <AmplifySignOut />
+            </div>
                 <div className="containerSecundario">
                     <div className="form-group">
                         <label>Usuario:</label>
@@ -82,7 +85,6 @@ class Login extends Component{
                         <button className="btn btn-primary" onClick={()=> this.iniciarSesion()} >Iniciar Sesión</button>
                     </div>
                     <div>
-                        <AmplifySignOut />
                         My App
                     </div>
                 </div>             
