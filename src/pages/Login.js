@@ -60,7 +60,7 @@ class Login extends Component{
         return(
             <div className="containerPrincipal">
                 <div className="containerTop">
-                    <AmplifySignOut />
+                    <AmplifySignOut className= "btnSignOutAmplify"/>
                 </div>
                 <div className="containerSecundario">
                     <div className="form-group">
