@@ -59,9 +59,9 @@ class Login extends Component{
     render() {
         return(
             <div className="containerPrincipal">
-            <div className="containerTop">
-                <AmplifySignOut />
-            </div>
+                <div className="containerTop">
+                    <AmplifySignOut />
+                </div>
                 <div className="containerSecundario">
                     <div className="form-group">
                         <label>Usuario:</label>
